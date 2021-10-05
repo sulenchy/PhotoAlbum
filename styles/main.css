@@ -1,0 +1,120 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* layout */
+.flex{
+    display: flex;
+}
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+.w-70 {
+    width: 70%;
+}
+.h-80{
+    height: 80%;
+}
+.h-20{
+    height: 20%;
+}
+
+.w-50-px {
+    width: 50px;
+}
+
+.h-50-px{
+    height: 50px;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.item-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/*Positioning*/
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-50{
+    top: 50%;
+}
+
+.right-50-px {
+    right: 50px;
+}
+
+
+/* cards */
+.card {
+
+}
+
+.card-light {
+
+}
+
+.card-dark {
+
+}
+
+
+/* spacing */
+
+.p-5 {
+    padding: 5px;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 1em gray;
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: 0em 0em 2em gray
+}
+
+
+.font-anonymous-pro{
+    font-family: "Anonymous Pro";
+}
+
+.text-justify {
+    text-align: justify;
+}
