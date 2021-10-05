@@ -1,7 +1,13 @@
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-/* layout */
+body{
+    padding: 5px;
+}
+
+.fixed {
+    position: fixed;
+}
 .flex{
     display: flex;
 }
@@ -13,53 +19,6 @@
     flex-direction: column;
 }
 
-.w-full{
-    width: 100%;
-}
-
-.w-80 {
-    width: 80%;
-}
-.w-70 {
-    width: 70%;
-}
-.h-80{
-    height: 80%;
-}
-.h-20{
-    height: 20%;
-}
-
-.w-50-px {
-    width: 50px;
-}
-
-.h-50-px{
-    height: 50px;
-}
-
-.w-half {
-    width: 50%;
-}
-
-.h-screen {
-    height: 100vh;
-}
-
-.item-center {
-    justify-content: center;
-    align-items: center;
-}
-
-/*Positioning*/
-.absolute {
-    position: absolute;
-}
-
-.fixed {
-    position: fixed;
-}
-
 .top-50{
     top: 50%;
 }
@@ -68,29 +27,16 @@
     right: 50px;
 }
 
-
-/* cards */
-.card {
-
+.w-full{
+    width: 100%;
 }
 
-.card-light {
-
+.w-50-px {
+    width: 50px;
 }
 
-.card-dark {
-
-}
-
-
-/* spacing */
-
-.p-5 {
-    padding: 5px;
-}
-
-.m-5 {
-    margin: 5px;
+.h-50-px{
+    height: 50px;
 }
 
 .rounded-full {
@@ -102,19 +48,96 @@
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 1em gray;
+    box-shadow: 0px 0px .9em .5em black;
     cursor: pointer;
 }
 
-.shadow {
-    box-shadow: 0em 0em 2em gray
+.text-center{
+    text-align: center;
+}
+
+.p-t-5 {
+    padding-top: 5px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  box-shadow: 0em 0em 1em gray;
+  /* color: blue; */
+  margin: auto;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 
-.font-anonymous-pro{
-    font-family: "Anonymous Pro";
-}
+@media (min-width: 900px) {
+    .w-80 {
+        width: 80%;
+    }
 
-.text-justify {
-    text-align: justify;
+    .w-70 {
+        width: 70%;
+    }
+
+    .h-80{
+        height: 80%;
+    }
+
+    .h-20{
+        height: 20%;
+    }
+
+
+
+    .w-half {
+        width: 50%;
+    }
+
+    .h-screen {
+        height: 100vh;
+    }
+
+    .item-center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Positioning*/
+    .absolute {
+        position: absolute;
+    }
+
+
+
+    /* spacing */
+
+    .p-5 {
+        padding: 5px;
+    }
+
+    .m-5 {
+        margin: 5px;
+    }
+
+    .m-0 {
+        margin: 0;
+    }
+
+    .shadow {
+        box-shadow: 0em 0em 2em gray
+    }
+
+
+    .font-anonymous-pro{
+        font-family: "Anonymous Pro";
+        padding-right: 10px;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
 }
