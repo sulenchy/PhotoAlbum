@@ -21,7 +21,7 @@ function typeWriter() {
 const navbar = document.getElementById("family-name");
 const sticky = navbar.offsetTop;
 
-function myFunction() {
+function stickNavbar() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -30,4 +30,7 @@ function myFunction() {
 }
 
 document.addEventListener("DOMContentLoaded", typeWriter());
-document.addEventListener("scroll", myFunction)
+document.addEventListener("scroll", stickNavbar)
+
+
+
